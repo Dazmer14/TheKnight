@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cti583x3wy56j"]
+
+[ext_resource type="Script" path="res://scripts/info.gd" id="1_5h0fc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6msem"]
+
+[node name="info" type="Node2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="info" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_6msem")
+script = ExtResource("1_5h0fc")

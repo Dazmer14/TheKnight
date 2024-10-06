@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsiog2cs0k5dh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4v0u7"]
+
+[node name="info board" type="Node2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="info" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -10)
+shape = SubResource("RectangleShape2D_4v0u7")
